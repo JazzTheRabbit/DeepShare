@@ -1,4 +1,4 @@
-![deepshare](https://github.com/krack3nn/DeepShare/blob/c50081b724bafb7be99408fdb71b98b8d1811384/logo.png)
+![deepshare](https://github.com/krack3nn/DeepShare/blob/a92ced9410153d998a22f509d254f0566c035758/deepshare_logo.png)
 
 Uncovers actual SMB share permissions at every subfolder level, beyond what the root reports.
 
