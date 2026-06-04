@@ -165,7 +165,7 @@ SMB  10.10.10.10  445  Data  [PDF File Found]    Finance/Q3_Report.pdf
 SMB  10.10.10.10  445  Data  [KDBX File Found]   IT/passwords.kdbx
 ```
 
-`--ext all` searches for: `kdbx kdb psafe3 pfx p12 pem key ppk pdf docx doc xlsx xls pptx ppt config conf cfg ini env xml yaml yml ps1 bat cmd sh vbs sql db sqlite bak`
+`--ext all` searches for: `kdbx` `kdb` `psafe3` `pfx` `p12` `pem` `key` `ppk` `pdf` `docx` `doc` `xlsx` `xls` `pptx` `ppt` `config` `conf` `cfg` `ini` `env` `xml` `yaml` `yml` `ps1` `bat` `cmd` `sh` `vbs` `sql` `db` `sqlite` `bak`
 
 ---
 
