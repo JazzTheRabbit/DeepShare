@@ -1,6 +1,6 @@
 ![deepshare](https://github.com/krack3nn/DeepShare/blob/d5daa7c8b8b7c099e53c47aa2ebfb99b3f76654a/meme.jpg)
 
-## deepshare
+## About DeepShare
 
 Most SMB enumeration tools report share level permissions, the coarse Read/Write/Full Control setting at the share root. What they miss is that Windows enforces two completely separate permission layers:
 
@@ -16,7 +16,7 @@ It is also worth noting that deepshare is a wrapper around `smbclient`, which co
 
 ---
 
-## About
+## Requirements
 
 - `smbclient`
 - `awk`, `tr`, `sed` (standard on all Linux distros)
