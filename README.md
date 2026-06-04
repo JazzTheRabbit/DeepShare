@@ -4,9 +4,9 @@
 
 Most SMB enumeration tools report share level permissions, the coarse Read/Write/Full Control setting at the share root. What they miss is that Windows enforces two completely separate permission layers:
 
-**Share permissions** - one setting controlling access to the entire share root. This is what tools like nxc and smbmap report.
+**`Share permissions`** - one setting controlling access to the entire share root. This is what tools like nxc and smbmap report.
 
-**NTFS permissions** - granular ACEs set per folder, per file, at every level of the directory tree. Completely independent from share permissions.
+**`NTFS permissions`** - granular ACEs set per folder, per file, at every level of the directory tree. Completely independent from share permissions.
 
 A share root can be READ only while a subfolder three levels deep grants full WRITE access via NTFS. No existing remote tool checks for that.
 
@@ -171,7 +171,7 @@ SMB  10.10.10.10  445  Data  [KDBX File Found]   IT/passwords.kdbx
 
 ## OpSec Considerations
 
-deepshare generates real SMB traffic. Every subfolder means real connections, real file operations, real log entries. It is not silent.
+`deepshare` generates real SMB traffic. Every subfolder means real connections, real file operations, real log entries. It is not silent.
 
 What it does consider:
 
