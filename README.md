@@ -1,6 +1,6 @@
 ![deepshare](https://github.com/krack3nn/DeepShare/blob/d5daa7c8b8b7c099e53c47aa2ebfb99b3f76654a/meme.jpg)
 
-## About DeepShare
+## About
 
 Most SMB enumeration tools report share level permissions, the coarse Read/Write/Full Control setting at the share root. What they miss is that Windows enforces two completely separate permission layers:
 
