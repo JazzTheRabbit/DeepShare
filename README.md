@@ -191,4 +191,4 @@ deepshare is intended for authorized penetration testing and security assessment
 
 ## Author
 
-krack3n
+JazzTheRabbit
