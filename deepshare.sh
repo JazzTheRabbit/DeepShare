@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# deepshare — SMB share permission checker
-# by krack3n
+# DeepShare — SMB share permission checker
+# by JazzTheRabbit
 
 # ── Colors ────────────────────────────────────────────────────────────────────
 R='\033[1;31m'
