@@ -669,7 +669,7 @@ print_banner() {
     local target_label
     target_label="$(IFS=', '; echo "${TARGETS[*]}")"
 
-    echo -e "${D}deepshare  by krack3n${N}"
+    echo -e "${D}deepshare  by JazzTheRabbit${N}"
     echo -e ""
     printf "  ${B}${W}%-9s${N}  ${D}%s${N}\n" "Target"  "$target_label"
     printf "  ${B}${W}%-9s${N}  ${D}%s${N}\n" "Shares"  "$shares_label"
